@@ -1,0 +1,10 @@
+// get /
+curl -X GET 'http://localhost:3000'
+
+// get /help
+curl -X GET 'http://localhost:3000/help'
+
+// get /help?qs=somevalue
+curl -X GET 'http://localhost:3000/help?qs=somevalue'
+
+
